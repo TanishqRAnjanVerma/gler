@@ -1,0 +1,123 @@
+body{
+  background: rgb(0, 0, 0);
+ 
+}
+
+#carouselExampleAutoplaying{
+  position: relative;
+  top: -32rem;
+}
+.slidr{
+  position: relative;
+  top: 70px;
+}
+
+.product{
+  position: relative;
+  top: 22px
+}
+.carousel-item {
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.4s;
+  overflow: hidden;
+  object-fit: cover;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+
+  position: relative;
+    bottom: 52rem;
+}
+
+
+ .best {
+    position: relative;
+    top: 23rem;
+    z-index: 1000;
+
+}
+
+.carousel-item img{
+  transition: var(--transition);
+  position: relative;
+  bottom: 10rem ;
+}
+
+.carousel-item:hover img{
+  transform: scale(1.1);
+}
+
+
+.carousel-item.active {
+  opacity: 1;
+  
+}
+.cover2{
+  position: relative;
+  top: 2rem;
+  width: 100%;
+  
+}
+.cover3{
+  position: relative;
+    top: 47rem;
+    width: 50%;
+    left: 50%;
+  
+}
+.cover4{
+  position: relative;
+  top: 47rem;
+  width: 50%;
+}
+
+@media(max-width:576px){
+ .slidr {
+    position: relative;
+    top: 149px;
+}
+.best {
+  position: relative;
+  top: 12rem;
+  z-index: 1000;
+  
+  font-size: 28px;
+  margin-left: 78px;
+}
+ 
+  .swiper{
+    bottom: 2px;
+  }
+
+  .product{
+    position: relative;
+    top: 0px;
+  }
+  .cover3{
+    position: relative;
+    top: 16rem;
+  }
+  .cover4{
+    position: relative;
+    top: 16rem;
+  }
+}
+
+@media (min-width:576px) and (max-width:1240px){
+
+  .carousel-item{
+    object-fit: cover;
+  }
+
+  
+
+.best {
+    position: relative;
+    top: 11rem;
+    z-index: 1000;
+    font-size: 40px;
+    margin-left: 48px;
+}
+
+}
+

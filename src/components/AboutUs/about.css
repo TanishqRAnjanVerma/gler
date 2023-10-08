@@ -1,0 +1,40 @@
+.ceo{
+    position: relative;
+    
+}
+.ceo h2{
+    position: relative;
+    top: 8rem;
+    left: 8rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    transition: var(--transition);
+}
+.ceo h2:hover{
+    transform: scale(1.1);
+}
+
+.ceo p{
+    position: absolute !important;
+    color: white;
+    top: 12rem;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.vision h3{
+    position: relative;
+    top: 22rem;
+    left: 60rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+
+.vision p{
+    position: absolute !important;
+    color: white;
+    top: 28rem;
+    
+    font-family: 'Poppins', sans-serif;
+}
