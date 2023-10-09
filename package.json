@@ -1,5 +1,5 @@
 {
-  "homepage": "https://TanishqRAnjanVerma.github.io/my-app",
+ 
   "name": "gler-app",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
+   
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
@@ -19,9 +20,9 @@
     "react-scripts": "5.0.1",
     "swiper": "^10.3.1",
     "web-vitals": "^2.1.4"
-   
   },
   "scripts": {
+   
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
