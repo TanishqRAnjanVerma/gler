@@ -31,10 +31,13 @@ body{
 
 
  .best {
-    position: relative;
-    top: 23rem;
-    z-index: 1000;
-
+  position: relative;
+  top: 16rem;
+  z-index: 1000;
+  color: #000000;
+  font-family: 'Poppins';
+  font-size: 48px;
+  margin-left: 18px;
 }
 
 .carousel-item img{
@@ -78,11 +81,11 @@ body{
 }
 .best {
   position: relative;
-  top: 12rem;
+  top: 107px;
   z-index: 1000;
-  
-  font-size: 28px;
-  margin-left: 78px;
+  color:#484343;
+  font-size: 14px;
+  margin-left: 2px;
 }
  
   .swiper{

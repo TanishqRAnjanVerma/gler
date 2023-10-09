@@ -37,13 +37,13 @@ const Series = () => {
              <h1 className='best' data-aos="fade-up">
               BEST SELLING &nbsp; PRODUCTS
             </h1> 
-            <img src={imgbanner} className="d-block w-100" alt="..." />
+            <img src={imgbanner} className="d-block w-100" alt="image" />
           </div>
           <div className="carousel-item">
-            <img src={img7} className="d-block w-100" alt="..." />
+            <img src={img7} className="d-block w-100" alt="image" />
           </div>
           <div className="carousel-item">
-            <img src={img8} className="d-block w-100" alt="..." />
+            <img src={img8} className="d-block w-100" alt="image" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
