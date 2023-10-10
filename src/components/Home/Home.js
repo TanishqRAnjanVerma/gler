@@ -5,7 +5,7 @@ import img3 from "../images/img3.PNG";
 import img4 from "../images/img4.PNG";
 import img5 from "../images/img5.PNG";
 import img6 from "../images/img6.PNG";
-
+import video1 from "../Videos/video1.mp4"
 import video2 from "../Videos/video2.mp4"
 
 
@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div >
       <div className="vedo">
-       <video  controlsList='none' loading="lazy" loop autoPlay src="http://68.178.172.99:3001/gler.mp4" type="video/mp4" data-aos="fade-right"></video>
+       <video  controlsList='none' loading="lazy" loop autoPlay src={video1} type="video/mp4" data-aos="fade-right"></video>
       </div> 
 
      
