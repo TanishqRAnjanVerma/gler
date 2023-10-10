@@ -27,8 +27,8 @@ const Home = () => {
   return (
     <div >
       <div className="vedo">
-       {video1 && <video controlsList='none' loop autoPlay src={video1} type="video/mp4" data-aos="fade-right"></video>}
-      </div>
+       <video  controlsList='none' loop autoPlay src="link/to/video1.mp4" type="video/mp4" data-aos="fade-right"></video>
+      </div> 
 
      
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-aos="fade-up">
