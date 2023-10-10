@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div >
       <div className="vedo">
-        <video controlsList='none' loop autoPlay src={video1} type="video/mp4" data-aos="fade-right"></video>
+       {video1 && <video controlsList='none' loop autoPlay src={video1} type="video/mp4" data-aos="fade-right"></video>}
       </div>
 
      
