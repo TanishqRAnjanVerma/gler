@@ -5,7 +5,7 @@ import React, { useEffect } from 'react'
 
 
 import imgbanner from "../images/imgbanner.jpg";
-import img7 from "../images/img7.PNG";
+import img7 from "../images/img7.png";
 import img8 from "../images/img8.jpg";
 import "../Series/series.css"
 import video3 from "../Videos/video3.mp4"

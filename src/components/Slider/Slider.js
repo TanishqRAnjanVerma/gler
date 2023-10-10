@@ -1,18 +1,18 @@
 
 
-import img18 from '../images/img18.PNG'
-import img19 from '../images/img19.PNG'
-import img20 from '../images/img20.PNG'
-import img21 from '../images/img21.PNG'
-import img22 from '../images/img22.PNG'
-import img23 from '../images/img23.PNG'
+import img18 from '../images/img18.png'
+import img19 from '../images/img19.png'
+import img20 from '../images/img20.png'
+import img21 from '../images/img21.png'
+import img22 from '../images/img22.png'
+import img23 from '../images/img23.png'
 import img24 from '../images/img24.png'
-import img25 from '../images/img25.PNG'
-import img26 from '../images/img26.PNG'
-import img27 from '../images/img27.PNG'
+import img25 from '../images/img25.png'
+import img26 from '../images/img26.png'
+import img27 from '../images/img27.png'
 import img28 from '../images/img28.png'
-import img29 from '../images/img29.PNG'
-import img30 from '../images/img30.PNG'
+import img29 from '../images/img29.png'
+import img30 from '../images/img30.png'
 
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
