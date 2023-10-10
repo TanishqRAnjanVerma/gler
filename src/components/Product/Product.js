@@ -4,15 +4,15 @@ import '../Product/product.css'
 
 
 
-import img9 from "../images/img9.png";
-import img10 from "../images/img10.png";
-import img11 from "../images/img11.png";
-import img12 from "../images/img12.png";
-import img13 from "../images/img13.png";
-import img14 from "../images/img14.png";
-import img15 from "../images/img15.jpg";
-import img16 from "../images/img16.png";
-import img17 from "../images/img17.png";
+import img9 from "../image/img9.png";
+import img10 from "../image/img10.png";
+import img11 from "../image/img11.png";
+import img12 from "../image/img12.png";
+import img13 from "../image/img13.png";
+import img14 from "../image/img14.png";
+import img15 from "../image/img15.jpg";
+import img16 from "../image/img16.png";
+import img17 from "../image/img17.png";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
