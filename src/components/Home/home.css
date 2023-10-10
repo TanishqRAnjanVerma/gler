@@ -18,6 +18,8 @@
 
   
 }
+
+
   
   .carousel-control-next1, .carousel-control-prev1{
     position: absolute;
@@ -39,7 +41,7 @@
 
 
 
-h1 {
+.mainheading {
   position: relative;
   z-index: 1000;
   color: white;
@@ -47,29 +49,47 @@ h1 {
   margin-left: 115px;
   font-family: 'Poppins', sans-serif;
   font-size: 5rem;
-  animation: slideup 2s ease-in-out;
+
+
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
   
 }
-p{
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+.extratxt{
   position: relative;
   z-index: 1000;
   color: white !important;
   top: 18rem;
   margin-left: 0px;
   font-size: 1rem;
-  animation: slideup 2s ease-in-out;
+
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
 }
 
-@keyframes slideUp  {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
- }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
- }
-}
+
 
 h1, p {
  animation: slideUp 2s ease-in-out forwards;

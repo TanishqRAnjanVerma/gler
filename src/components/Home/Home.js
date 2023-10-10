@@ -5,8 +5,9 @@ import img3 from "../images/img3.PNG";
 import img4 from "../images/img4.PNG";
 import img5 from "../images/img5.PNG";
 import img6 from "../images/img6.PNG";
-import video1 from "../Videos/video1.mp4"
+
 import video2 from "../Videos/video2.mp4"
+
 
 import "../Home/home.css"
 
@@ -27,7 +28,7 @@ const Home = () => {
   return (
     <div >
       <div className="vedo">
-       <video  controlsList='none' loop autoPlay src={video1} type="video/mp4" data-aos="fade-right"></video>
+       <video  controlsList='none' loop autoPlay src="http://68.178.172.99:3001/gler.mp4" type="video/mp4" data-aos="fade-right"></video>
       </div> 
 
      
@@ -62,7 +63,7 @@ const Home = () => {
         <div className='card1 'data-aos="fade-up" >
           <div className="row"data-aos="fade-up">
             <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-              <div className="card h-100" data-aos="fade-up" >
+              <div className="card h-100 w-100" data-aos="fade-up" >
                 <img src={img4} className="card-img-top" alt="image" />
                 <div className="card-body" data-aos="fade-up">
                   <h5 className="card-title" data-aos="fade-up">RAFFAELLO SERIES</h5>
@@ -73,7 +74,7 @@ const Home = () => {
             </div>
 
             <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4" data-aos="fade-up">
-              <div className="card h-100 " data-aos="fade-up">
+              <div className="card h-100 w-100" data-aos="fade-up">
                 <img src={img5} className="card-img-top" alt="image" />
                 <div className="card-body" data-aos="fade-up">
                   <h5 className="card-title" data-aos="fade-up">VARIANTS AVAILABLE</h5>
@@ -83,9 +84,9 @@ const Home = () => {
             </div>
 
             <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4" data-aos="fade-up">
-              <div className="card h-100"  data-aos="fade-up">
+              <div className="card h-100 w-100"  data-aos="fade-up">
                 <img src={img6} className="card-img-top" alt="image" />
-                <div className="card-body">
+                <div className="card-body"  data-aos="fade-up">
                   <h5 className="card-title" data-aos="fade-up">TIZIANO SERIES</h5>
                   <p className="card-text" data-aos="fade-up">The unique temperament of the Titan series is graceful and soft like the work of painter, Tiziano Vecell. </p>
 
