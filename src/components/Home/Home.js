@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div >
       <div className="vedo">
-       <video  controlsList='none' loop autoPlay src="http://68.178.172.99:3001/gler.mp4" type="video/mp4" data-aos="fade-right"></video>
+       <video  controlsList='none' loading="lazy" loop autoPlay src="http://68.178.172.99:3001/gler.mp4" type="video/mp4" data-aos="fade-right"></video>
       </div> 
 
      
