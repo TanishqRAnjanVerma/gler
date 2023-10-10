@@ -5,9 +5,9 @@ import img3 from "../images/img3.png";
 import img4 from "../images/img4.png";
 import img5 from "../images/img5.png";
 import img6 from "../images/img6.png";
-import video1 from "../Videos/video1.mp4"
-import video2 from "../Videos/video2.mp4"
 
+import video2 from "../Videos/video2.mp4"
+import video1 from "../Videos/video1.mp4"
 
 import "../Home/home.css"
 
