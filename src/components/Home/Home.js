@@ -102,7 +102,8 @@ const Home = () => {
          {/* <h1 data-aos="fade-up">
          CATALOUGE
         </h1>  */}
-        <video controlsList='none' loop autoPlay src={video2} type="video/mp4"></video>
+        <video controlsList='none' loop autoPlay src={video2} type="video/mp4" data-aos="fade-left"></video>
+       
       </div>
 
       <Footer />
