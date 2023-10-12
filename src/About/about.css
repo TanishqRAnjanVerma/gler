@@ -1,0 +1,387 @@
+.post1 img {
+    max-width: 65%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.txt {
+    text-align: right !important;
+    color: white;
+    margin-right: 140px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -405px;
+}
+
+.cardq {
+    width: 300px !important;
+    background-color: black !important;
+
+    position: relative;
+    left: 910px;
+    top: -425px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt1 {
+    text-align: right !important;
+    color: white;
+    margin-right: 119px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -405px;
+}
+
+.cardu {
+    width: 300px !important;
+    background-color: black !important;
+
+    position: relative;
+    left: 910px;
+    top: -425px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: initial;
+    color: white;
+}
+
+
+.txt2 {
+
+    color: white;
+    margin-right: 965px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -315px;
+}
+
+.cardv {
+    width: 300px !important;
+    background-color: black !important;
+    position: relative;
+    left: 50px;
+    top: -330px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt3 {
+
+    color: white;
+    margin-right: 415px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -430px;
+}
+
+.cardx {
+    width: 300px !important;
+    background-color: black !important;
+    position: relative;
+    left: 525px;
+    top: -445px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.post2 img {
+    max-width: 65%;
+    margin-left: 415px;
+    margin-top: -620px;
+
+}
+
+.txt4 {
+    color: white;
+    margin-right: 870px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -185px;
+}
+
+.ceo img {
+    padding: 0.25rem;
+    background-color: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin-left: 90px;
+}
+
+
+.txt5 {
+
+    color: white;
+    margin-right: 637px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -300px;
+
+}
+
+.cardy {
+    width: 600px !important;
+    background-color: black !important;
+    position: relative;
+    left: 430px;
+    top: -310px;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-thumbnail {
+    border-radius: 10px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .post1 img {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .txt, .txt1, .txt2, .txt3, .txt4, .txt5 {
+        font-size: 1rem;
+    }
+
+    .cardq, .cardu, .cardv, .cardx, .cardy {
+        width: 100% !important;
+        font-size: 8px;
+    }
+}
+
+/* @media (min-width:240px) and (max-width:576px) {
+
+    .post1 img {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .txt {
+        margin-right: 8px;
+        position: relative;
+        top: 0;
+    }
+
+    .cardq {
+        position: relative;
+        left: 8px;
+        top: -20px;
+    }
+
+    .txt1 {
+        margin-right: 150px;
+        position: relative;
+        top: 20px;
+    }
+
+    .cardu {
+        left: 90px;
+        top: 0px;
+    }
+
+    .card-text {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+
+    .txt2 {
+        margin-right: 8px;
+        position: relative;
+        top: 20px;
+    }
+
+    .cardv {
+        position: relative;
+        left: 8px;
+        top: 0px;
+
+    }
+
+    .txt3 {
+        margin-right: 8px;
+        position: relative;
+        top: 20px;
+    }
+
+    .cardx {
+        position: relative;
+        left: 8px !important;
+        top: 0px;
+    }
+
+    .post2 img {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .txt4 {
+        margin-right: 8px !important;
+        position: relative;
+        top: 0px;
+    }
+
+    .ceo img {
+        padding: 0;
+        border-radius: 0 !important;
+        position: relative;
+        margin-left: 20px;
+        height: 200px;
+        width: 150px;
+        top: 56px;
+    }
+
+    .txt5 {
+        margin-right: 8px;
+        font-size: 1.5rem;
+
+        position: relative;
+        top: 0px;
+    }
+
+    .cardy {
+        width: 390px !important;
+        position: relative;
+        left: 8px;
+        top: 0px;
+    }
+
+    .img-thumbnail {
+        border-radius: 10px !important;
+        padding: 0 !important;
+        border: 0 !important;
+        margin: 0;
+    }
+
+}
+
+
+@media (min-width:577px) and (max-width:768px) {.post1 img {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.txt {
+    margin-right: 8px;
+    position: relative;
+    top: 0;
+}
+
+.cardq {
+    position: relative;
+    left: 8px;
+    top: -20px;
+}
+
+.txt1 {
+       margin-right: 8px;
+    position: relative;
+    top: 20px;
+}
+
+.cardu {
+    left: 90px;
+    top: 0px;
+}
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.txt2 {
+    margin-right: 8px;
+    position: relative;
+    top: 20px;
+}
+
+.cardv {
+    position: relative;
+    left: 8px;
+    top: 0px;
+
+}
+
+.txt3 {
+    margin-right: 8px;
+    position: relative;
+    top: 20px;
+}
+
+.cardx {
+    position: relative;
+    left: 8px;
+    top: 0px;
+}
+
+.post2 img {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.txt4 {
+    margin-right: 8px;
+    position: relative;
+    top: 0px;
+}
+
+.ceo img {
+    padding: 0;
+    border-radius: 0 !important;
+    position: relative;
+    margin-left: 20px;
+    height: 200px;
+    width: 150px;
+    top: 56px;
+}
+
+.txt5 {
+    margin-right: 8px;
+    font-size: 1.5rem;
+
+    position: relative;
+    top: 0px;
+}
+
+.cardy {
+    width: 390px !important;
+    position: relative;
+    left: 8px;
+    top: 0px;
+}
+
+.img-thumbnail {
+    border-radius: 10px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    margin: 0;
+}
+}
+
+@media (min-width:768px) and (max-width:992px) {}
+
+@media (min-width:992px) and (max-width:1240px) {} */

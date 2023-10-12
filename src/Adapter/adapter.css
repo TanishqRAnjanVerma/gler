@@ -1,0 +1,89 @@
+.comingsoon {
+    position: absolute;
+   z-index: 1;
+    top: 1055px;
+    margin-left: 350px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;  
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  @media (min-width:240px) and (max-width:576px) {
+
+    .comingsoon {
+      font-size: 1.5rem;
+      margin-left: 80px;
+      position: relative;
+      top: 355px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:577px) and (max-width:768px) {
+    .comingsoon {
+
+      font-size: 2.5rem;
+      margin-left: 226px;
+      position: relative;
+      top: 660px;
+    }
+
+
+}
+
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .comingsoon {
+
+      font-size: 3rem;
+      margin-left: 189px;
+      position: relative;
+      top: 711px;
+  }
+    
+
+
+
+}
+
+
+
+ @media(min-width:1440px) {
+    .comingsoon {
+
+        font-size: 9.5rem;
+        margin-left: 555px;
+        position: relative;
+        top: -87px;
+    }
+} 

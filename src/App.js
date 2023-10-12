@@ -1,61 +1,43 @@
-import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar/Navbar";
 
-
-
-import About from "./components/AboutUs/About";
-import Joinnow from "./components/JoinNow/Joinnow";
-import Shop from "./components/Shop/Shop";
-
+import About from './About/About';
+import Adapter from './Adapter/Adapter';
+import './App.css';
+import Footer from './Footer/Footer';
+import Home from './Home/Home';
 
 import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
- 
+
 } from "react-router-dom";
-import Series from "./components/Series/Series";
-import Adapter from "./components/AdapterSeries/Adapter";
 
-
-
-
-
+import Join from './Join/Join';
+import Navbar from './Navbar/Navbar';
+import Product from './Product/Product';
+import Shop from './Shop/Shop';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+      <Navbar />
         <Switch>
-          <Route path="/shop">
-            <Shop />
-          </Route>
-          <Route path="/join">
-            <Joinnow />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/adapter">
-            <Adapter/>
-          </Route>
-          <Route path="/product">
-            <Series/>
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        
-      </div>
       
-      
-      
-    </Router>
 
-  
+          <Route exact path="/"><Home /></Route>
+          <Router path="/Product"><Product /></Router>
+          <Router path="/Adapter"> <Adapter /></Router>
+          <Router path="/About"><About /></Router>
+          <Router path="/Shop"> <Shop /></Router>
+          <Router path="/Join">  <Join /></Router>
+
+        </Switch>
+        <Footer />
+      </div>
+
+    </Router>
   );
 }
 
