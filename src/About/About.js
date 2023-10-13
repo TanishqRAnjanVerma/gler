@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
-import imgpost from "../image/imgpost.jpg"
-import imgpost2 from "../image/imgpost2.jpg";
-import ceopic from "../image/ceopic.png";
+import imgpost from "../images/imgpost.jpg"
+import imgpost2 from "../images/imgpost2.jpg";
+import ceopic from "../images/ceopic.png";
 import "../About/about.css";
 
 import Aos from 'aos'
