@@ -25,6 +25,7 @@ const Product = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
+  
   return (
     <div >
       <div className="banner" data-aos="fade-up">

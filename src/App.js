@@ -5,7 +5,7 @@ import './App.css';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
 
-import React from "react";
+import React,{useEffect} from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,6 +19,9 @@ import Product from './Product/Product';
 import Shop from './Shop/Shop';
 
 function App() {
+  useEffect(()=>{window.scrollTo({ top: 0, behavior: 'smooth' });}
+  , []);
+
   return (
     <Router>
       <div className="App">
@@ -34,7 +37,7 @@ function App() {
           <Router path="/Join">  <Join /></Router>
 
         </Switch>
-        <Footer />
+        <Footer/>
       </div>
 
     </Router>

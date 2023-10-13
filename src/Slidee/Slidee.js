@@ -1,14 +1,14 @@
-import prd1 from '../images/prd1.PNG'
+import prd1 from '../images/prd1.png'
 import prd2 from '../images/prd2.png'
-import prd3 from '../images/prd3.PNG'
+import prd3 from '../images/prd3.png'
 import prd4 from '../images/prd4.png'
 import prd5 from '../images/prd5.png'
 import prd6 from '../images/prd6.png'
-import prd7 from '../images/prd7.PNG'
+
 import prd8 from '../images/prd8.jpg'
-import prd9 from '../images/prd9.PNG'
-import prd10 from '../images/prd10.PNG'
-import prd11 from '../images/prd11.PNG'
+import prd9 from '../images/prd9.png'
+
+import prd11 from '../images/prd11.png'
 import prd12 from '../images/prd12.PNG'
 
 
@@ -51,7 +51,7 @@ export default function Slidee() {
           <img src={prd1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={prd9} />
+          <img src={prd2} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={prd3} />
@@ -66,23 +66,19 @@ export default function Slidee() {
           <img src={prd6} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={prd7} />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src={prd8} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={prd2} />
+          <img src={prd9} />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={prd10} />
-        </SwiperSlide>
+       
         <SwiperSlide>
           <img src={prd11} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={prd12} />
         </SwiperSlide>
+       
         
       </Swiper>
       

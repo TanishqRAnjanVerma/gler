@@ -14,6 +14,7 @@ const Footer = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 })
     }, [])
+    
     return (
         <div>
             <footer className="new_footer_area bg_color" data-aos="fade-up">
@@ -64,8 +65,8 @@ const Footer = () => {
                                     <div className="f_social_icon">
                                         <a href="#" className="fab fa-facebook"><BsFacebook/></a>
                                         <a href="#" className="fab fa-twitter"><FaTwitter/></a>
-                                        <a href="#" className="fab fa-linkedin"><BsInstagram/></a>
-                                        <a href="#" className="fab fa-pinterest"><BsLinkedin/></a>
+                                        <a href="https://instagram.com/gleritaly?igshid=OGQ5ZDc2ODk2ZA==" className="fab fa-linkedin"><BsInstagram/></a>
+                                        <a href="https://www.linkedin.com/in/gler-italy-89a49628a?trk=contact-info" className="fab fa-pinterest"><BsLinkedin/></a>
                                     </div>
                                 </div>
                             </div>

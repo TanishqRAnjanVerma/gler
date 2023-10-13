@@ -19,6 +19,8 @@ const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
+
+  
   return (
     <div>
 
@@ -110,7 +112,7 @@ const Home = () => {
 
       <div className="slide"> <Slide/></div>
     
-      
+    
     </div>
   )
 }
