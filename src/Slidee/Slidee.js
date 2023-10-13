@@ -1,14 +1,14 @@
-import prd1 from '../images/prd1.png'
-import prd2 from '../images/prd2.png'
-import prd3 from '../images/prd3.png'
-import prd4 from '../images/prd4.png'
-import prd5 from '../images/prd5.png'
-import prd6 from '../images/prd6.png'
-import prd8 from '../images/prd8.jpg'
-import prd9 from '../images/prd9.png'
+import prd1 from '../image/prd1.png'
+import prd2 from '../image/prd2.png'
+import prd3 from '../image/prd3.png'
+import prd4 from '../image/prd4.png'
+import prd5 from '../image/prd5.png'
+import prd6 from '../image/prd6.png'
+import prd8 from '../image/prd8.jpg'
+import prd9 from '../image/prd9.png'
 
-import prd11 from '../images/prd11.png'
-import prd12 from '../images/prd12.PNG'
+import prd11 from '../image/prd11.png'
+import prd12 from '../image/prd12.PNG'
 
 
 import React, { useRef, useState } from 'react';
