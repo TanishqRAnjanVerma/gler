@@ -6,12 +6,12 @@ import "../About/about.css"
 
 function About() {
   return (
-    <div>
+    <div style={{display:'flex', flexDirection:'column'}}>
       <div className="post1">
         <img src={imgpost} class="img-fluid" alt="..." ></img>
       </div>
 
-      <div className="txt">
+    <div className="txt">
         <p className="text-end" >Our Vision at GLER</p>
       </div>
 
@@ -27,7 +27,7 @@ function About() {
       </div>
 
 
-
+   {/*
       <div className="txt1">
         <p className="text-end" >Our mission at GLER</p>
       </div>
@@ -94,7 +94,7 @@ function About() {
         
         </div>
       </div>
-
+ */}
 
     </div>
   )

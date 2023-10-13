@@ -1,4 +1,9 @@
 import React, { useEffect } from 'react'
+import { BsFacebook } from 'react-icons/bs';
+import { FaTwitter } from 'react-icons/fa';
+import { BsInstagram } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
+
 import "../Footer/footer.css"
 
 import Aos from 'aos'
@@ -57,10 +62,10 @@ const Footer = () => {
                                 <div className="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style={{ visibility: 'visible', animationDelay: '0.8s', animationName: 'fadeInLeft' }}>
                                     <h3 className="f-title f_600 t_color f_size_18">Team Solutions</h3>
                                     <div className="f_social_icon">
-                                        <a href="#" className="fab fa-facebook"></a>
-                                        <a href="#" className="fab fa-twitter"></a>
-                                        <a href="#" className="fab fa-linkedin"></a>
-                                        <a href="#" className="fab fa-pinterest"></a>
+                                        <a href="#" className="fab fa-facebook"><BsFacebook/></a>
+                                        <a href="#" className="fab fa-twitter"><FaTwitter/></a>
+                                        <a href="#" className="fab fa-linkedin"><BsInstagram/></a>
+                                        <a href="#" className="fab fa-pinterest"><BsLinkedin/></a>
                                     </div>
                                 </div>
                             </div>
