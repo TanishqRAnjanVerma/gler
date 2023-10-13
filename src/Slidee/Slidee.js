@@ -4,10 +4,8 @@ import prd3 from '../images/prd3.png'
 import prd4 from '../images/prd4.png'
 import prd5 from '../images/prd5.png'
 import prd6 from '../images/prd6.png'
-
 import prd8 from '../images/prd8.jpg'
 import prd9 from '../images/prd9.png'
-
 import prd11 from '../images/prd11.png'
 import prd12 from '../images/prd12.PNG'
 
