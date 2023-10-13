@@ -51,6 +51,9 @@ export default function Slidee() {
           <img src={prd1} />
         </SwiperSlide>
         <SwiperSlide>
+          <img src={prd9} />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={prd2} />
         </SwiperSlide>
         <SwiperSlide>
