@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import "../Home/home.css"
 
-import img1 from "../image/img1.png"
-import img2 from "../image/img2.png"
-import img3 from "../image/img3.png"
-import imgcard3 from "../image/imgcard3.png"
-import imgcard2 from "../image/imgcard2.png"
-import imgcard1 from "../image/imgcard1.png"
-import posterp from "../image/posterp.png"
+import img1 from "../images/img1.png"
+import img2 from "../images/img2.png"
+import img3 from "../images/img3.png"
+import imgcard3 from "../images/imgcard3.png"
+import imgcard2 from "../images/imgcard2.png"
+import imgcard1 from "../images/imgcard1.png"
+import posterp from "../images/posterp.png"
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -29,17 +29,17 @@ const Home = () => {
           <div className="carousel-item active">
             <h1 className='mainheading' data-aos="fade-up">WELCOME TO GLER</h1>
             <p className='extratxt' data-aos="fade-up">Presenting the Brand New Series of Adapter</p>
-            <img src={img1} className="d-block w-100" alt="image1" />
+            <img src={img1} className="d-block w-100" alt="images1" />
           </div>
           <div className="carousel-item">
             <h1 className='mainheading' data-aos="fade-up">WELCOME TO GLER</h1>
             <p className='extratxt' data-aos="fade-up">Presenting the Brand New Series of Adapter</p>
-            <img src={img2} className="d-block w-100" alt="image2" />
+            <img src={img2} className="d-block w-100" alt="images2" />
           </div>
           <div className="carousel-item">
             <h1 className='mainheading' data-aos="fade-up">WELCOME TO GLER</h1>
             <p className='extratxt' data-aos="fade-up">Presenting the Brand New Series of Adapter</p>
-            <img src={img3} className="d-block w-100 " alt="image3" />
+            <img src={img3} className="d-block w-100 " alt="images3" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -70,7 +70,7 @@ const Home = () => {
 
             </div>
           </div>
-          <img src={imgcard1} className="card__image" />
+          <img src={imgcard1} className="card__images" />
         </div>
       </div>
 
@@ -88,7 +88,7 @@ const Home = () => {
 
             </div>
           </div>
-          <img src={imgcard2} className="card__image" />
+          <img src={imgcard2} className="card__images" />
         </div>
       </div>
 
@@ -106,7 +106,7 @@ const Home = () => {
 
             </div>
           </div>
-          <img src={imgcard3} className="card__image" />
+          <img src={imgcard3} className="card__images" />
         </div>
       </div>
 

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import adp1 from "../image/adp1.jpg"
-import adp2 from "../image/adp2.png"
+import adp1 from "../images/adp1.jpg"
+import adp2 from "../images/adp2.png"
 import "../Adapter/adapter.css"
 
 const Adapter = () => {

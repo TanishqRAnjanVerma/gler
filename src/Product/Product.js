@@ -1,24 +1,24 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import imgbanner from "../image/imgbanner.jpg"
+import imgbanner from "../images/imgbanner.jpg"
 import '../Product/product.css'
 import Slidee from '../Slidee/Slidee'
-import img32 from "../image/img32.jpg"
-import img33 from "../image/img33.png"
-import img34 from "../image/img34.png"
+import img32 from "../images/img32.jpg"
+import img33 from "../images/img33.png"
+import img34 from "../images/img34.png"
 
-import img4 from "../image/img4.png";
-import img5 from "../image/img5.png";
-import img6 from "../image/img6.png";
+import img4 from "../images/img4.png";
+import img5 from "../images/img5.png";
+import img6 from "../images/img6.png";
 
-import img35 from "../image/img35.png";
-import img36 from "../image/img36.png";
-import img37 from "../image/img37.png";
+import img35 from "../images/img35.png";
+import img36 from "../images/img36.png";
+import img37 from "../images/img37.png";
 
-import card1 from "../image/card1.png"
-import card2 from "../image/card2.jpg"
-import card3 from "../image/card3.jpg"
+import card1 from "../images/card1.png"
+import card2 from "../images/card2.jpg"
+import card3 from "../images/card3.jpg"
 const Product = () => {
   // Creating a react hook to add a scroll animation....
 
