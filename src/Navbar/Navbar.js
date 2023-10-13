@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logo from "../images/logo.png"
+import logo from "../image/logo.png"
 import "../Navbar/navbar.css"
 import { Link } from 'react-router-dom'
 
