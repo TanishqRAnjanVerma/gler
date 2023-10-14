@@ -1,9 +1,10 @@
 import React from 'react'
+import "../Join/join.css"
 
 function Join() {
   return (
-    <div>
-      Join
+    <div className='join'>
+      <p>Coming Soon.....</p>
     </div>
   )
 }

@@ -1,11 +1,13 @@
 .new_footer_area {
-  background: #ffffff;
+    background: #ffffff;
+    background-attachment: initial !important;
+    
 }
 
 .new_footer_top {
-  padding: 120px 0px 270px;
-  position: relative;
-  overflow-x: hidden;
+    padding: 50px 0px 140px;
+    position: relative;
+      overflow-x: hidden;
 }
 
 .new_footer_area .footer_bottom {
@@ -13,11 +15,12 @@
   padding-bottom: 50px;
 }
 .footer_bottom {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-  color: #515152;
-  padding: 27px 0px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #515152;
+    padding: 27px 0px;
+    background-attachment: initial !important;
 }
 .new_footer_top .company_widget p {
   font-size: 16px;
@@ -72,12 +75,12 @@ button:focus {
   text-decoration: none;
 }
 .new_footer_top .f_social_icon a {
-  width: 44px;
-  height: 44px;
-  line-height: 43px;
-  background: transparent;
-  border: 1px solid #3b3b3c;
-  font-size: 24px;
+    width: 44px;
+    height: 44px;
+    line-height: 26px;
+    background: transparent;
+  
+    font-size: 40px;
 }
 .f_social_icon a {
   width: 46px;
@@ -119,11 +122,11 @@ button:focus {
   color: #4e4d4f;
 }
 
-.new_footer_top .f_social_icon a:hover {
-  background: #888888;
-  border-color: #7e7e7e;
-  color: rgb(61, 59, 59);
-}
+/* .new_footer_top .f_social_icon a:hover {
+    background: #888888;
+    border-color: #7e7e7e;
+  color:rgb(61, 59, 59);
+} */
 .new_footer_top .f_social_icon a + a {
   margin-left: 4px;
 }

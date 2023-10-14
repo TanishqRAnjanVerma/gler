@@ -1,27 +1,16 @@
 import React, { useEffect } from 'react'
 import "../Home/home.css"
-
-import img1 from "../images/img1.png"
-import img2 from "../images/img2.png"
-import img3 from "../images/img3.png"
-import imgcard3 from "../images/imgcard3.png"
-import imgcard2 from "../images/imgcard2.png"
-import imgcard1 from "../images/imgcard1.png"
-import posterp from "../images/posterp.png"
-
+import {img1, img2, img3, imgcard1, imgcard2, imgcard3,  posterp} from '../image/image.js'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Slide from '../Slide/Slide'
-
 const Home = () => {
   // Creating a react hook to add a scroll animation....
-
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
   return (
     <div>
-
       <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -49,7 +38,6 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-
       <div className="posterp">
       <img src={posterp} data-aos="fade-up"  className="img-fluid" alt="..."></img>
       </div>
@@ -71,7 +59,6 @@ const Home = () => {
           <img src={imgcard1} className="card__image" />
         </div>
       </div>
-
       <div className="container" data-aos="fade-up">
         <div className="card w-100">
           <div className="card__body">
@@ -83,13 +70,11 @@ const Home = () => {
               <p className="card__text2">
                 TOUCHED BY SOPHISTICATION.
               </p>
-
             </div>
           </div>
           <img src={imgcard2} className="card__image" />
         </div>
       </div>
-
       <div className="container" style={{ display: 'flex' }} data-aos="fade-up">
         <div className="firstcard"></div>
         <div className="card w-100">
@@ -101,18 +86,13 @@ const Home = () => {
               <p className="card__text2">
                 TOUCHED BY SOPHISTICATION.
               </p>
-
             </div>
           </div>
           <img src={imgcard3} className="card__image" />
         </div>
       </div>
-
-      <div className="slide"> <Slide/></div>
-    
-      
+      <div className="slide"> <Slide/></div>  
     </div>
   )
 }
-
 export default Home

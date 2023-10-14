@@ -1,30 +1,24 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-// import "aos/dist/aos.css";
-import imgbanner from "../images/imgbanner.jpg";
-import "../Product/product.css";
-import Slidee from "../Slidee/Slidee";
-import img32 from "../images/img32.jpg";
-import img33 from "../images/img33.png";
-import img34 from "../images/img34.png";
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+// import 'aos/dist/aos.css'
+import '../Product/product.css'
+import Slidee from '../Slidee/Slidee'
 
-import img4 from "../images/img4.png";
-import img5 from "../images/img5.png";
-import img6 from "../images/img6.png";
+import { imgbanner, img32, img33, img34, img35, img36, img37, img4, img5, img6, card1, card2, card3} from '../image/image.js'
 
-import img35 from "../images/img35.png";
-import img36 from "../images/img36.png";
-import img37 from "../images/img37.png";
 
-import card1 from "../images/card1.png";
-import card2 from "../images/card2.jpg";
-import card3 from "../images/card3.jpg";
+
+
+
+
+
+
 const Product = () => {
   // Creating a react hook to add a scroll animation....
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+    Aos.init({ duration: 2000 })
+  }, [])
 
   return (
     <div>
@@ -128,16 +122,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div
-              class="card"
-              style={{
-                width: "100%",
-                height: "390px",
-                color: "white",
-                fontSize: "13px",
-              }}
-              data-aos="fade-right"
-            >
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right">
               <img src={img6} class="card-img-top" alt="..." />
               <div
                 class="card-body"
@@ -183,16 +168,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div
-              class="card"
-              style={{
-                width: "100%",
-                height: "390px",
-                color: "white",
-                fontSize: "13px",
-              }}
-              data-aos="fade-right"
-            >
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right">
               <img src={img36} class="card-img-top" alt="..." />
               <div
                 class="card-body"
@@ -207,16 +183,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div
-              class="card"
-              style={{
-                width: "100%",
-                height: "390px",
-                color: "white",
-                fontSize: "13px",
-              }}
-              data-aos="fade-right"
-            >
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right" >
               <img src={img37} class="card-img-top" alt="..." />
               <div
                 class="card-body"
@@ -263,16 +230,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div
-              class="card"
-              style={{
-                width: "100%",
-                height: "390px",
-                color: "white",
-                fontSize: "13px",
-              }}
-              data-aos="fade-right"
-            >
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right">
               <img src={card2} class="card-img-top" alt="..." />
               <div
                 class="card-body"
@@ -287,16 +245,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div
-              class="card"
-              style={{
-                width: "100%",
-                height: "390px",
-                color: "white",
-                fontSize: "13px",
-              }}
-              data-aos="fade-right"
-            >
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right" >
               <img src={card3} class="card-img-top" alt="..." />
               <div
                 class="card-body"
@@ -312,7 +261,9 @@ const Product = () => {
         </div>
       </div>
 
-      <div className="slidee" data-aos="fade-up">
+
+
+      <div className="slidee" data-aos="fade-up" >
         <Slidee />
       </div>
     </div>

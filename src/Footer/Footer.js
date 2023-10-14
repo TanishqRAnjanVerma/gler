@@ -1,4 +1,9 @@
 import React, { useEffect } from 'react'
+import { BsFacebook } from 'react-icons/bs';
+import { FaTwitter } from 'react-icons/fa';
+import { BsInstagram } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
+
 import "../Footer/footer.css"
 
 import Aos from 'aos'
@@ -9,7 +14,7 @@ const Footer = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 })
     }, [])
-
+    
     return (
         <div>
             <footer className="new_footer_area bg_color" data-aos="fade-up">
@@ -32,10 +37,10 @@ const Footer = () => {
                                 <div className="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInLeft' }}>
                                     <h3 className="f-title f_600 t_color f_size_18">About Us</h3>
                                     <ul className="list-unstyled f_list" style={{ textDecoration: 'none' }}>
-                                        <li ><a style={{ textDecoration: 'none' }} href="#" >Company</a></li>
-                                        <li><a style={{ textDecoration: 'none' }} href="#">Products</a></li>
-                                        <li><a style={{ textDecoration: 'none' }} href="#">Series</a></li>
-                                        <li><a style={{ textDecoration: 'none' }} href="#">Variants</a></li>
+                                        <li ><a style={{ textDecoration: 'none' }} href="/About" >Company</a></li>
+                                        <li><a style={{ textDecoration: 'none' }} href="/Product">Products</a></li>
+                                        <li><a style={{ textDecoration: 'none' }} href="/Product">Series</a></li>
+                                        <li><a style={{ textDecoration: 'none' }} href="/Product">Variants</a></li>
                                         <li><a style={{ textDecoration: 'none' }} href="#">Shop</a></li>
                                         <li><a style={{ textDecoration: 'none' }} href="#">Coupons</a></li>
                                     </ul>
@@ -58,10 +63,10 @@ const Footer = () => {
                                 <div className="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style={{ visibility: 'visible', animationDelay: '0.8s', animationName: 'fadeInLeft' }}>
                                     <h3 className="f-title f_600 t_color f_size_18 mt-4">Team Solutions</h3>
                                     <div className="f_social_icon">
-                                        <a href="#" className="fab fa-facebook"></a>
-                                        <a href="#" className="fab fa-twitter"></a>
-                                        <a href="#" className="fab fa-linkedin"></a>
-                                        <a href="#" className="fab fa-pinterest"></a>
+                                        <a href="#" className="fab fa-facebook"><BsFacebook/></a>
+                                        <a href="#" className="fab fa-twitter"><FaTwitter/></a>
+                                        <a href="https://instagram.com/gleritaly?igshid=OGQ5ZDc2ODk2ZA==" className="fab fa-linkedin"><BsInstagram/></a>
+                                        <a href="https://www.linkedin.com/in/gler-italy-89a49628a?trk=contact-info" className="fab fa-pinterest"><BsLinkedin/></a>
                                     </div>
                                 </div>
                             </div>

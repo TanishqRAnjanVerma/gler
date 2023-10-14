@@ -1,19 +1,6 @@
+import { img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30 } from '../image/image.js'
 
-import img18 from '../images/img18.png'
-import img19 from '../images/img19.png'
-import img20 from '../images/img20.png'
-import img21 from '../images/img21.png'
-import img22 from '../images/img22.png'
-import img23 from '../images/img23.png'
-import img24 from '../images/img24.png'
-import img25 from '../images/img25.png'
-import img26 from '../images/img26.png'
-import img27 from '../images/img27.png'
-import img28 from '../images/img28.png'
-import img29 from '../images/img29.png'
-import img30 from '../images/img30.png'
-
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -30,7 +17,7 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 export default function Slide() {
   return (
     <>
-   
+
       <Swiper data-aos="fade-up"
         effect={'coverflow'}
         grabCursor={true}
@@ -87,7 +74,7 @@ export default function Slide() {
           <img src={img30} />
         </SwiperSlide>
       </Swiper>
-      
+
     </>
   );
 }

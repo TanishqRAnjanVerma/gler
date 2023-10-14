@@ -70,10 +70,6 @@
       position: relative;
       top: 711px;
   }
-    
-
-
-
 }
 
 
@@ -81,9 +77,13 @@
  @media(min-width:1440px) {
     .comingsoon {
 
-        font-size: 9.5rem;
-        margin-left: 555px;
-        position: relative;
-        top: -87px;
+      font-size: 6rem;
+      margin-left: 0;
+      position: relative;
+      top: 84rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 } 
+
