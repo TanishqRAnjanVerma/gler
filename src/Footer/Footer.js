@@ -9,13 +9,14 @@ const Footer = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 })
     }, [])
+
     return (
         <div>
             <footer className="new_footer_area bg_color" data-aos="fade-up">
                 <div className="new_footer_top">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-3 col-md-6" data-aos="fade-right">
+                            <div className="col-lg-3 col-md-6 mb-4" data-aos="fade-right">
                                 <div className="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style={{ visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInLeft' }}>
                                     <h3 className="f-title f_600 t_color f_size_18">Get in Touch</h3>
                                     <p>Don’t miss any updates of our new design and products.!</p>
@@ -27,7 +28,7 @@ const Footer = () => {
                                     </form>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6" >
+                            <div className="col-lg-3 col-md-6 col-6" >
                                 <div className="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInLeft' }}>
                                     <h3 className="f-title f_600 t_color f_size_18">About Us</h3>
                                     <ul className="list-unstyled f_list" style={{ textDecoration: 'none' }}>
@@ -40,7 +41,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-3 col-md-6 col-6">
                                 <div className="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style={{ visibility: 'visible', animationDelay: '0.6s', animationName: 'fadeInLeft' }}>
                                     <h3 className="f-title f_600 t_color f_size_18">Help</h3>
                                     <ul className="list-unstyled f_list">
@@ -55,7 +56,7 @@ const Footer = () => {
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style={{ visibility: 'visible', animationDelay: '0.8s', animationName: 'fadeInLeft' }}>
-                                    <h3 className="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                                    <h3 className="f-title f_600 t_color f_size_18 mt-4">Team Solutions</h3>
                                     <div className="f_social_icon">
                                         <a href="#" className="fab fa-facebook"></a>
                                         <a href="#" className="fab fa-twitter"></a>
