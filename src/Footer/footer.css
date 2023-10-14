@@ -2,11 +2,13 @@
 
 .new_footer_area {
     background: #ffffff;
+    background-attachment: initial !important;
+    
 }
 
 
 .new_footer_top {
-    padding: 120px 0px 270px;
+    padding: 50px 0px 140px;
     position: relative;
       overflow-x: hidden;
 }
@@ -20,6 +22,7 @@
     line-height: 20px;
     color: #515152;
     padding: 27px 0px;
+    background-attachment: initial !important;
 }
 .new_footer_top .company_widget p {
     font-size: 16px;

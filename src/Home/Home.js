@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import "../Home/home.css"
 
-import img1 from "../image/img1.png"
-import img2 from "../image/img2.png"
-import img3 from "../image/img3.png"
-import imgcard3 from "../image/imgcard3.png"
-import imgcard2 from "../image/imgcard2.png"
-import imgcard1 from "../image/imgcard1.png"
-import posterp from "../image/posterp.png"
+import img1 from "../image/img1.webp"
+import img2 from "../image/img2.webp"
+import img3 from "../image/img3.webp"
+import imgcard3 from "../image/imgcard3.webp"
+import imgcard2 from "../image/imgcard2.webp"
+import imgcard1 from "../image/imgcard1.webp"
+import posterp from "../image/posterp.webp"
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'

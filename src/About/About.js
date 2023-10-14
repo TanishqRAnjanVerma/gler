@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
-import imgpost from "../image/imgpost.jpg"
-import imgpost2 from "../image/imgpost2.jpg";
-import ceopic from "../image/ceopic.png";
+import imgpost from "../image/imgpost.webp"
+import imgpost2 from "../image/imgpost2.webp";
+import ceopic from "../image/ceopic.webp";
 import "../About/about.css";
 
 import Aos from 'aos'
@@ -136,7 +136,7 @@ const About = () => {
                 management skilss, and a commitment to driving innovation in the
                 business world.
               </p>
-              <p className="card-text" data-aos="fade-right">
+              <p className="card-text " data-aos="fade-right">
                 
                 As the CEO of Gler S.R.L, Mr. Saggar has demonstrated an exceptional
                 ability to turn innovative ideas into thriving businesses, having

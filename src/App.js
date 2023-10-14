@@ -16,7 +16,7 @@ import {
 import Join from './Join/Join';
 import Navbar from './Navbar/Navbar';
 import Product from './Product/Product';
-import Shop from './Shop/Shop';
+
 
 function App() {
   useEffect(()=>{window.scrollTo({ top: 0, behavior: 'smooth' });}
@@ -33,7 +33,6 @@ function App() {
           <Router path="/Product"><Product /></Router>
           <Router path="/Adapter"> <Adapter /></Router>
           <Router path="/About"><About /></Router>
-          <Router path="/Shop"> <Shop /></Router>
           <Router path="/Join">  <Join /></Router>
 
         </Switch>

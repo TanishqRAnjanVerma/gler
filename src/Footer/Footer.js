@@ -37,10 +37,10 @@ const Footer = () => {
                                 <div className="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInLeft' }}>
                                     <h3 className="f-title f_600 t_color f_size_18">About Us</h3>
                                     <ul className="list-unstyled f_list" style={{ textDecoration: 'none' }}>
-                                        <li ><a style={{ textDecoration: 'none' }} href="#" >Company</a></li>
-                                        <li><a style={{ textDecoration: 'none' }} href="#">Products</a></li>
-                                        <li><a style={{ textDecoration: 'none' }} href="#">Series</a></li>
-                                        <li><a style={{ textDecoration: 'none' }} href="#">Variants</a></li>
+                                        <li ><a style={{ textDecoration: 'none' }} href="/About" >Company</a></li>
+                                        <li><a style={{ textDecoration: 'none' }} href="/Product">Products</a></li>
+                                        <li><a style={{ textDecoration: 'none' }} href="/Product">Series</a></li>
+                                        <li><a style={{ textDecoration: 'none' }} href="/Product">Variants</a></li>
                                         <li><a style={{ textDecoration: 'none' }} href="#">Shop</a></li>
                                         <li><a style={{ textDecoration: 'none' }} href="#">Coupons</a></li>
                                     </ul>
