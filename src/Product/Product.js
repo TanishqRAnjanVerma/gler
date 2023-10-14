@@ -1,31 +1,25 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import imgbanner from "../image/imgbanner.webp"
 import '../Product/product.css'
 import Slidee from '../Slidee/Slidee'
-import img32 from "../image/img32.webp"
-import img33 from "../image/img33.webp"
-import img34 from "../image/img34.webp"
 
-import img4 from "../image/img4.webp";
-import img5 from "../image/img5.webp";
-import img6 from "../image/img6.webp";
+import { imgbanner, img32, img33, img34, img35, img36, img37, img4, img5, img6, card1, card2, card3} from '../image/image.js'
 
-import img35 from "../image/img35.webp";
-import img36 from "../image/img36.webp";
-import img37 from "../image/img37.webp";
 
-import card1 from "../image/card1.webp"
-import card2 from "../image/card2.webp"
-import card3 from "../image/card3.webp"
+
+
+
+
+
+
 const Product = () => {
   // Creating a react hook to add a scroll animation....
 
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
-  
+
   return (
     <div >
       <div className="banner" data-aos="fade-up">
@@ -82,7 +76,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }}data-aos="fade-right">
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right">
               <img src={img6} class="card-img-top" alt="..." />
               <div class="card-body" style={{ backgroundColor: "rgb(89, 85, 85)" }}>
                 <p class="card-text">The unique temperament of the Titan series is graceful and soft like the work of painter, Tiziano Vecell.</p>
@@ -105,7 +99,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }}data-aos="fade-right">
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right">
               <img src={img36} class="card-img-top" alt="..." />
               <div class="card-body" style={{ backgroundColor: "rgb(89, 85, 85)" }}>
                 <p class="card-text">Say goodbye to the clutter and hassle! The Raffaelo Series Adapter is here to simplify your life.</p>
@@ -114,7 +108,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }}data-aos="fade-right" >
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right" >
               <img src={img37} class="card-img-top" alt="..." />
               <div class="card-body" style={{ backgroundColor: "rgb(89, 85, 85)" }}>
                 <p class="card-text">Embrace the artistry of your space with the Titian Series. Let your home be a canvas of sophistication.</p>
@@ -137,7 +131,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }}data-aos="fade-right">
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right">
               <img src={card2} class="card-img-top" alt="..." />
               <div class="card-body" style={{ backgroundColor: "rgb(89, 85, 85)" }}>
                 <p class="card-text">The Raphael series is made with zirconium and oxidation technology, providing a skin-like touch.</p>
@@ -146,7 +140,7 @@ const Product = () => {
           </div>
 
           <div className=" col-md-4 col-sm-12 col-xl-4 col-xxl-4">
-            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }}data-aos="fade-right" >
+            <div class="card" style={{ width: "100%", height: '390px', color: 'white', fontSize: '13px' }} data-aos="fade-right" >
               <img src={card3} class="card-img-top" alt="..." />
               <div class="card-body" style={{ backgroundColor: "rgb(89, 85, 85)" }}>
                 <p class="card-text">The unique temperament of the Titian series is graceful and soft, like the works of the painter Tiziano Vecell.</p>
@@ -159,7 +153,7 @@ const Product = () => {
 
 
 
-      <div className="slidee"data-aos="fade-up" >
+      <div className="slidee" data-aos="fade-up" >
         <Slidee />
       </div>
     </div>

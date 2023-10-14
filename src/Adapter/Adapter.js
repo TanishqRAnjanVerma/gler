@@ -1,10 +1,8 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import adp1 from "../image/adp1.webp"
-import adp2 from "../image/adp2.webp"
 import "../Adapter/adapter.css"
-
+import {adp1, adp2} from '../image/image.js'
 const Adapter = () => {
   // Creating a react hook to add a scroll animation....
 
@@ -15,8 +13,7 @@ const Adapter = () => {
     <div>
       <h1 className='comingsoon' >COMING SOON</h1>
       <img src={adp2} class="img-fluid" alt="..." data-aos="fade-right"></img>
-      <img src={adp1} class="img-fluid" alt="..." data-aos="fade-left"></img>
-     
+      <img src={adp1} class="img-fluid" alt="..." data-aos="fade-right"></img>
     </div>
   )
 }

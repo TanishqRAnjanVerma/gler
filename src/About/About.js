@@ -1,7 +1,6 @@
 import React,{useEffect} from "react";
-import imgpost from "../image/imgpost.webp"
-import imgpost2 from "../image/imgpost2.webp";
-import ceopic from "../image/ceopic.webp";
+import {imgpost, imgpost2, ceopic} from '../image/image.js'
+
 import "../About/about.css";
 
 import Aos from 'aos'
@@ -98,11 +97,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
-
-
-
-
       <div className="content-card card-flex">
         <div className="heading-text textc">
           <p data-aos="fade-up"> It's not the <br /> things we <br /> make, but the <br /> lives we
@@ -113,11 +107,6 @@ const About = () => {
           <img src={imgpost2} class="img-fluid" alt="..."></img>
         </div>
       </div>
-
-
-
-
-
       <div className="desc">
         <div className="ceo">
           <img src={ceopic} class="img-thumbnail" alt="ceo-image" data-aos="fade-right"/>
@@ -157,57 +146,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* <div className="txt5">
-        <p className="text-end">
-          Saurabh Saggar <br /> CEO of GLER S.R.L
-        </p>
-      </div>
-
-      <div className="cardy" style={{ width: "18rem" }}>
-        <div className="card-body">
-          <p className="card-text">
-            Saurabh Saggar is a distinguished business leader with over 15 years
-            of invaluable experience in the power track industry. His remarkable
-            journey has been characterized by visionary leadership, paralleled
-            management skilss, and a commitment to driving innovation in the
-            business world.{" "}
-          </p>
-          <p className="card-text">
-            {" "}
-            As the CEO of Gler S.R.L, Mr. Saggar has demonstrated an exceptional
-            ability to turn innovative ideas into thriving businesses, having
-            completed his studies at prestigious institutions such as the
-            University of Cambridge, Singapore and Deakin University, Australia.
-            These educational experiences have enriched his knowledge and
-            deepened his understanding of global business dynamics. <br />
-            Based in Turin, Italy, the industrial hub of country, Mr. Saggar
-            founded Gler S.R.L, a testament to his vison and dedication to
-            making a lasting impact. Under his leadership, Gler has thrived,
-            setting new standards of innovation and success in the industry.
-            Saurabh Saggar's legacy is one of transformation and progress. His
-            exceptional leadership and unwavering commitment to turning
-            visionary ideas into reality continue to shape the future of Gler
-            and inspire those around him.
-          </p>
-        </div>
-
-      </div> */}
     </div>
   );
 }
