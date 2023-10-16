@@ -9,7 +9,7 @@
     position: absolute;
    
     top: 100px;
-    margin-left: 150px; 
+    margin-left: 240px; 
     font-family: 'Poppins', sans-serif;
     font-size: 5rem;  
     letter-spacing: 4px;
@@ -153,9 +153,9 @@
 
     .mainheading {
         margin-top: -65px;
-        margin-left: 75px;
+        margin-left: 60px;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.8rem;  
+        font-size: 1.5rem;  
         letter-spacing: 4px;
 
         
