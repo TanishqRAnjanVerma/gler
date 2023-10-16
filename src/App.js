@@ -5,6 +5,7 @@ import './App.css';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
 
+
 import React,{useEffect} from "react";
 import {
   BrowserRouter as Router,
@@ -16,6 +17,7 @@ import {
 import Join from './Join/Join';
 import Navbar from './Navbar/Navbar';
 import Product from './Product/Product';
+import ScrollToTop from './ScrollToTop/ScrollToTop';
 
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop/>
       <div className="App">
+
       <Navbar />
         <Switch>
       

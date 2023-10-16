@@ -5,20 +5,13 @@ import '../Product/product.css'
 import Slidee from '../Slidee/Slidee'
 
 import { imgbanner, img32, img33, img34, img35, img36, img37, img4, img5, img6, card1, card2, card3} from '../image/image.js'
-
-
-
-
-
-
-
-
 const Product = () => {
   // Creating a react hook to add a scroll animation....
 
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
+  
 
   return (
     <div >
