@@ -7,13 +7,12 @@ export const img3 = require('../image/img3.webp');
 export const imgcard3 = require("../image/imgcard3.webp");
 export const imgcard2 = require("../image/imgcard2.webp");
 export const imgcard1 = require("../image/imgcard1.webp");
-export const posterp = require("../image/posterp.webp");
+
 
 // Product Page Images
 
 export const imgbanner = require('../image/imgbanner.webp');
 export const img32 = require('../image/img32.webp');
-export const img33 = require('../image/img33.webp');
 export const img34 = require('../image/img34.webp');
 export const img35 = require('../image/img35.webp');
 export const img36 = require('../image/img36.webp');

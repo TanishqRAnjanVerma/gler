@@ -1,8 +1,8 @@
 .comingsoon {
     position: absolute;
    z-index: 1;
-    top: 1055px;
-    margin-left: 350px; 
+    top: 360px;
+    margin-left: 335px; 
     font-family: 'Poppins', sans-serif;
     font-size: 5rem;  
     letter-spacing: 4px;
@@ -29,32 +29,18 @@
 
     .comingsoon {
       font-size: 1.5rem;
-      margin-left: 80px;
+      margin-left: 85px;
       position: relative;
-      top: 355px;
+      top: 220px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width:577px) and (max-width:768px) {
     .comingsoon {
 
       font-size: 2.5rem;
-      margin-left: 226px;
+      margin-left: 190px;
       position: relative;
-      top: 660px;
+      top: 375px;
     }
 
 
@@ -68,7 +54,7 @@
       font-size: 3rem;
       margin-left: 189px;
       position: relative;
-      top: 711px;
+      top: 460px;
   }
 }
 
@@ -80,7 +66,7 @@
       font-size: 6rem;
       margin-left: 0;
       position: relative;
-      top: 84rem;
+      top: 55rem;
       display: flex;
       align-items: center;
       justify-content: center;

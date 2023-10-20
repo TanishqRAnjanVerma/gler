@@ -12,7 +12,7 @@ const Adapter = () => {
   return (
     <div>
       <h1 className='comingsoon' >COMING SOON</h1>
-      <img src={adp2} class="img-fluid" alt="..." data-aos="fade-right"></img>
+      
       <img src={adp1} class="img-fluid" alt="..." data-aos="fade-right"></img>
     </div>
   )
