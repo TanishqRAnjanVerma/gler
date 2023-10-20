@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import "../Home/home.css"
-import {img1, img2, img3, imgcard1, imgcard2, imgcard3 } from '../image/image.js'
+import {img1, img2, img3, imgcard1, imgcard2, imgcard3} from '../image/image.js'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Slide from '../Slide/Slide'
@@ -38,7 +38,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-     
+      
 
       <div className="container" style={{ display: 'flex' }} data-aos="fade-up">
         <div className="firstcard"></div>

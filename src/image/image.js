@@ -59,7 +59,7 @@ export const prd12 = require('../image/prd12.webp');
 // Adapter Images
 
 export const adp1 = require('../image/adp1.webp');
-export const adp2 = require('../image/adp2.webp');
+
 
 // About Us Images
 

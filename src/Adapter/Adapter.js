@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import "../Adapter/adapter.css"
-import {adp1, adp2} from '../image/image.js'
+import {adp1} from '../image/image.js'
 const Adapter = () => {
   // Creating a react hook to add a scroll animation....
 
